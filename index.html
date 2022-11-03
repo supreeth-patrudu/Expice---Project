@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/10f595cdcf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!------ Navbar/Heading ---------->
+  <section class="header">
+    <p>expice</p>
+    <div>
+      <ul class="navbar">
+        <li><a class="active" href="index.html">Home</a>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><button onclick="window.location.href ='login.html'" class="login-btn">Login</button></li>
+        <!-- <li><a href="cart.html"><i class="fa-solid fa-bag-shopping" ></i></a></li> -->
+      </ul>
+    </div>  
+  </section>
+
+<!---- Hero Section ---->
+<section class="hero">
+  <div class="content">
+    <h1>Food</h1>
+    <h2>Discover Restaurant & Delicious Food</h2> 
+    <div class="searchbox">  
+      <input type="text" placeholder="Search Location, Food" class="search-inp"> 
+      <input type="button" value="GO" class="search-btn">
+    </div>
+    <div class="loc">
+      <i class="fa-solid fa-location-dot loc-icon"></i>
+      <p>Hyderabad</p>
+    </div>
+  </div>
+  <div class="image">
+    <img src="./images/hero/h1.png" alt="hero img">
+  </div>
+</section>  
+
+<!---- Services ---->
+<section class="services">
+  <div class="head">
+    <h1><span>Our Services</span></h1>
+  </div>
+  <div class="sub-head">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Aperiam omnis expedita eius voluptatibus sequi repudiandae perferendis totam facilis? <br>Cupiditate eaque quaerat.</p>
+  </div>
+  <div class="container">
+    <div class="box1">
+      <img src="./images/services/service1.svg" alt="">
+    </div>
+    <div class="box2">
+      <h3>Advanced Table <br>Booking</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    </div>
+    <div class="box3">
+      <img src="./images/services/service2.svg" alt="">
+    </div>
+    <div class="box4">
+      <h3>24/7 Food </h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    </div>
+    <div class="box5">
+      <div class="img5">
+        <img src="./images/services/service3.svg" alt="">
+      </div>
+      <div class="text5">
+        <h3>Free Home delivery <br>At Your Door Steps</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!---- booking ---->
+<section class="booking">
+  <div class="book-box">
+    <div class="book-head">
+      <h1>advance booking</h1>
+    </div>
+    <div class="book-search">
+      <input type="text" class="book-searchbox" placeholder="search restaurant">
+      <input type="button" value="GO" class="book-searchbtn">
+    </div>
+  </div>
+</section>
+
+<!---- explore ---->
+<section class="explore">
+  <div class="explore-head">
+    <h1>Explore Our Foods</h1>
+  </div>
+  <div class="explore-sub">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor <br>eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a,<br> tincidunt. Volutpat metus id amet.</p>
+  </div>
+  <!-- creating food items -->
+  <div class="item-container">
+    <!-- Item 1 -->
+    <div class="item">
+      <div class="item-img">
+        <img src="./images/items/item1.png" alt="" class="imgs">
+      </div>  
+      <div class="item-content">
+        <div class="item-head">
+          <h5>Hand Sandwich</h5>
+          <span>Rs10.25</span>
+        </div>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing...</p>
+        <!-- <a href="#" id="see-more">See more</a> -->
+        
+        <button id="myBtn">See More</button>
+      </div>   
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Cloud-Egg Croque Madame</h2>
+        </div>
+        <div class="modal-body">
+          <div class="modal-img">
+            <img src="images/items/item1.png" alt="" id="item1-img">
+          </div>
+          <div class="modal-info">
+            <h3>Ingredients</h3>
+          <ul>
+            <li> 1/2 cup Corriander</li>
+            <li> 12-14 Mint Leaves (Optional)</li>
+            <li> 1 Garlic Clove</li>
+            <li> 1/2tsp Lemon juice</li>
+            <li> 1-2 tbsp Coconut flakes</li>
+            <li>1/2tsp Salt</li>
+            <li>1 Green Chilli</li>
+          </ul>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <h3>Steps</h3>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quam labore, illum aliquam rem.</li>
+            <li>Accusamus dolor recusandae placeat natus deleniti explicabo, id blanditiis magnam a quasi odit fugiat suscipit et</li>
+            <li>Butter your bread slices and toast them either on griddle or in a toaster/air fryer or oven until crisp and golden.</li>
+            <li>Spread secret sauce and preferred toppings.</li>
+            <li>Slice and serve.</li>
+          </ul>
+        </div>
+      </div>
+
+</div>
+
+    <!-- Item 2 -->
+    <div class="item">
+      <div class="item-img">
+        <img src="./images/items/item2.png" alt="" class="imgs">
+      </div>  
+      <div class="item-content">
+        <div class="item-head">
+          <h5>Hand Sandwich</h5>
+          <span>Rs10.25</span>
+        </div>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.</p>
+      </div>   
+    </div>
+
+    <!-- Item 3 -->
+    <div class="item">
+      <div class="item-img">
+        <img src="./images/items/item3.png" alt="" class="imgs">
+      </div>  
+      <div class="item-content">
+        <div class="item-head">
+          <h5>Hand Sandwich</h5>
+          <span>Rs10.25</span>
+        </div>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.</p>
+      </div>   
+    </div>
+
+    <!-- Item 4 -->
+    <div class="item">
+      <div class="item-img">
+        <img src="./images/items/item4.png" alt="" class="imgs">
+      </div>  
+      <div class="item-content">
+        <div class="item-head">
+          <h5>Hand Sandwich</h5>
+          <span>Rs10.25</span>
+        </div>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.</p>
+      </div>   
+    </div>
+
+    <!-- Item 5 -->
+    <div class="item">
+      <div class="item-img">
+        <img src="./images/items/item5.png" alt="" class="imgs">
+      </div>  
+      <div class="item-content">
+        <div class="item-head">
+          <h5>Hand Sandwich</h5>
+          <span>Rs10.25</span>
+        </div>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.</p>
+      </div>   
+    </div>
+
+    <!-- Item 6 -->
+    <div class="item">
+      <div class="item-img">
+        <img src="./images/items/item6.png" alt="" class="imgs">
+      </div>  
+      <div class="item-content">
+        <div class="item-head">
+          <h5>Hand Sandwich</h5>
+          <span>Rs10.25</span>
+        </div>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.</p>
+      </div>   
+    </div>
+  </div>
+</section>
+
+<!--- Carousel --->
+<div class="carousel">
+  <button class="carousel button previous" id="previous"><</button>
+  <div class="carousel images">
+    <img src="images/items/item1.png" width="300px" height="300px" alt="">
+    <img src="images/items/item2.png" width="300px" height="300px" alt="">
+    <img src="images/items/item3.png" width="300px" height="300px" alt="">
+    <img src="images/items/item4.png" width="300px" height="300px" alt="">
+    <img src="images/items/item5.png" width="300px" height="300px" alt="">
+  </div>
+  <button class="carousel button next" id="next">></button>
+</div>
+
+<!---- Get Notified ---->
+<section class="notify">
+  <div class="notify-img">
+    <img src="./images/veggies/img2.png" alt="">
+  </div>
+  <div class="notify-container" >
+    <div class="notify-content">
+      <h1>Get Notified <br>About New Amazing Products</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing <br>cursus auctor eget sed phasellus senectus. </p>
+    </div>
+  
+    <div class="notify-bar">
+      <input type="text" placeholder="E-mail" class="notify-box">
+      <input type="button" value="&rarr;" class="notify-btn">
+    </div>
+
+    <div class="tags">
+      <a href="#">Product</a>
+      <a href="#">Company</a>
+      <a href="#">Learn More</a>
+      <a href="#">Get In Touch</a>
+    </div>
+  </div>
+
+
+
+  
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
